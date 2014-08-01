@@ -9,8 +9,8 @@
 # Rich Trouton, created July 4, 2012
 # Last modified 7-10-2012
 #
-# Adapter for use at Volusion
-# Emily Kausalik, create 7-31-2014
+# Adapted for use at Volusion
+# Emily Kausalik, created 7-31-2014
 # Last modified 8-01-2014
 
 # Delay the login window by unloading the com.apple.loginwindow
