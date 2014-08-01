@@ -34,10 +34,6 @@ fi
 
 defaults write /Library/Preferences/com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-# Turn on Automatic Time Zone adjustment
-
-defaults write /Library/Preferences/com.apple.timezone.auto "Active" -bool true
-
 # Set default  screensaver settings
 mkdir /System/Library/User\ Template/English.lproj/Library/Preferences/ByHost
 
