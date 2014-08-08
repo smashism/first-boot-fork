@@ -16,11 +16,11 @@
 # Delay the login window by unloading the com.apple.loginwindow
 # LaunchDaemon in /System/Library/LaunchDaemons/
 
-launchctl unload /System/Library/LaunchDaemons/com.apple.loginwindow.plist
+# launchctl unload /System/Library/LaunchDaemons/com.apple.loginwindow.plist
 
 # Sleeping for 30 seconds to allow the new default User Template folder to be moved into place
 
-sleep 30
+# sleep 30
 
 # Get the system's UUID to set ByHost prefs
 
