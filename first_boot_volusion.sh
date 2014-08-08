@@ -254,11 +254,11 @@ systemsetup -setremotelogin on
 # Remove the loginwindow delay by loading the com.apple.loginwindow   
 # LaunchDaemon in /System/Library/LaunchDaemons/
 
-launchctl load /System/Library/LaunchDaemons/com.apple.loginwindow.plist
+# launchctl load /System/Library/LaunchDaemons/com.apple.loginwindow.plist
 
 # Remove setup LaunchDaemon item
 
-srm /Library/LaunchDaemons/com.company.initialsetup.plist
+# srm /Library/LaunchDaemons/com.company.initialsetup.plist
 
 # Make script self-destruct
 
